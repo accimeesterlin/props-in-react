@@ -45,7 +45,7 @@ class App extends Component {
 
                 <Receiver fullState={this.state}/>
 
-                <Testing first={this.state} />
+                <Testing third = { this.decrement } fullState = {this.state }/>
 
 
                 <button onClick={this.increment}>Plus ( + )</button>

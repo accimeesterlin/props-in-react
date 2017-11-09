@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Testing from './Functional';
 
 
 // Class, Container, Smart, and Stateful component
@@ -11,8 +10,6 @@ class Receiver extends React.Component{
 
         const user = this.props.fullState;
 
-        const data = 'I am happy';
-        const data1 = "I am sad";
 
         return(
             <div>
@@ -21,7 +18,6 @@ class Receiver extends React.Component{
                 <p>I am the Receiver of { user.secondCount } ( - )</p>
                 <p>I am the Receiver of </p>
 
-                 <Testing second ={ data } first = { data1} />
 
             </div>
         );
